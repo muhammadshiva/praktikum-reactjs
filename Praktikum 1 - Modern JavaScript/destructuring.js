@@ -6,3 +6,8 @@ polStudent({
     name: 'Ronaldo',
     polytechnic: 'Politeknik Negeri Malang'
 });
+
+polStudent({
+    name: 'Dani',
+    polytechnic: 'ITS'
+})

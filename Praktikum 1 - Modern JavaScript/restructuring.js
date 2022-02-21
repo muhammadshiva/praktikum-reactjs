@@ -1,4 +1,4 @@
-var pemainSepakbola = {
+let pemainSepakbola = {
     name: 'Salah',
     height: '175',
     output(){

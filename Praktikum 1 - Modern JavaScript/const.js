@@ -31,22 +31,22 @@
 // Penggunaan Const 
 // Bersifat konstanta atau nilai tidak dapat diubah setelah variable dideklarasi
 
-// const name = 'Polinema'
-// alert(name);
+const name = 'Polinema'
+alert(name);
 
-const mahasiswa = {
-    nama: 'boni',
-    kelas: 'TI 3Z',
-}
+// const mahasiswa = {
+//     nama: 'boni',
+//     kelas: 'TI 3Z',
+// }
 
-mahasiswa.fakultas = 'informatika'
+// mahasiswa.fakultas = 'informatika'
 
-console.log(mahasiswa);
+// console.log(mahasiswa);
 
-const mahasiswa2 = ['Boni', 'Puta'];
+// const mahasiswa2 = ['Boni', 'Puta'];
 
-mahasiswa2.push('Dani');
+// mahasiswa2.push('Dani');
 
-console.log(mahasiswa2);
+// console.log(mahasiswa2);
 
 
