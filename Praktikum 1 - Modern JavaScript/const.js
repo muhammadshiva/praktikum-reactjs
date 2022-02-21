@@ -33,7 +33,6 @@
 
 const name = 'Polinema'
 alert(name);
-
 // const mahasiswa = {
 //     nama: 'boni',
 //     kelas: 'TI 3Z',

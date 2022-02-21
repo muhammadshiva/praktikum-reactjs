@@ -1,8 +1,9 @@
 let pemainSepakbola = {
     name: 'Salah',
     height: '175',
-    output(){
+    output() {
         alert(`Mr. ${this.name} is ${this.height} centimeter tall`);
     }
 };
+
 pemainSepakbola.output();

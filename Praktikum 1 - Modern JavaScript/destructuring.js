@@ -1,7 +1,8 @@
-let polStudent = ({name, polytechnic}) => {
+let polStudent = ({ name, polytechnic }) => {
     alert(`${name} from ${polytechnic}`);
 }
 
+// test
 polStudent({
     name: 'Ronaldo',
     polytechnic: 'Politeknik Negeri Malang'
