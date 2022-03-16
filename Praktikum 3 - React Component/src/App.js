@@ -8,7 +8,7 @@ class App extends Component {
       <div>
         <h1>Component dari Class App</h1>
         <List />
-        <Footer judul='Halaman Footer' nama='Muhammad Shiva' />
+        <Footer judul='Halaman Footer' nama='Riza Amalia Hariyanti' />
       </div>
     );
   }

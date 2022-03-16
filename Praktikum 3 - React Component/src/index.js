@@ -3,21 +3,15 @@ import ReactDOM, { render } from 'react-dom';
 import './index.css';
 import Test from './Test';
 import App from './App';
-import HelloComponent from './component/HelloComponent';
+import HelloComponent from './components/HelloComponent';
 import reportWebVitals from './reportWebVitals';
 import Login from './Login';
+import StateFullComponent from './container/StateFullComponent';
 
-ReactDOM.render(<Login />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
 // ReactDOM.render(<HelloComponent />, document.getElementById('root'));
 
-// Statefull Component 
-
-// class StateFullComponent extends React.Component {
-//     render() {
-//         return <p>StateFull Component</p>
-//     }
-// }
 
 // ReactDOM.render(<StateFullComponent />, document.getElementById('root'));
 
