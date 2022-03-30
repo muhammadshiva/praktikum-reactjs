@@ -60,7 +60,7 @@ class Table extends Component {
                                     </td>
                                     <td>
                                         <span
-                                            className="fas fa-minus-circle"
+                                            className="bi bi-dash-circle"
                                             onClick={() => this.props.deleteTodo(todo.id)}
                                             style={{
                                                 color: "white",
@@ -69,7 +69,7 @@ class Table extends Component {
                                             }}
                                         />
                                         <span
-                                            className="fas fa-check-circle"
+                                            className="bi bi-check-circle text-success"
                                             onClick={() => this.props.toggleTodo(todo.id)}
                                             style={{ color: "white", fontSize: "20pt" }}
                                         />
