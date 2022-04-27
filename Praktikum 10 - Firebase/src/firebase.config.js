@@ -4,12 +4,12 @@ import 'firebase/compat/firestore';
 import { getAuth } from '@firebase/auth';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAPxUl2pVlpa7jIV-4Qne_iZIGnbyJqgpA",
-    authDomain: "react-auth-4986c.firebaseapp.com",
-    projectId: "react-auth-4986c",
-    storageBucket: "react-auth-4986c.appspot.com",
-    messagingSenderId: "513410868105",
-    appId: "1:513410868105:web:02b94b1a10ddbd30b57758"
+    apiKey: "AIzaSyC0fJp3dchMDFn7qbKiB3IBE6NyCRxRQ_s",
+    authDomain: "react-auth-536f1.firebaseapp.com",
+    projectId: "react-auth-536f1",
+    storageBucket: "react-auth-536f1.appspot.com",
+    messagingSenderId: "662844064328",
+    appId: "1:662844064328:web:43c020a979b6d6638bce7d"
 };
 
 firebase.initializeApp(firebaseConfig);
