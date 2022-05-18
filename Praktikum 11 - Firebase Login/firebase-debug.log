@@ -1,0 +1,29 @@
+[debug] [2022-05-18T01:52:19.990Z] ----------------------------------------------------------------------
+[debug] [2022-05-18T01:52:19.992Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\shiva\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2022-05-18T01:52:19.992Z] CLI Version:   10.9.2
+[debug] [2022-05-18T01:52:19.992Z] Platform:      win32
+[debug] [2022-05-18T01:52:19.993Z] Node Version:  v16.13.2
+[debug] [2022-05-18T01:52:19.993Z] Time:          Wed May 18 2022 08:52:19 GMT+0700 (Western Indonesia Time)
+[debug] [2022-05-18T01:52:19.994Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-18T01:52:20.050Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-18T01:52:20.050Z] > authorizing via signed-in user (shivamuhammad07@gmail.com)
+[debug] [2022-05-18T01:52:20.051Z] [iam] checking project fir-login-97725 for permissions ["firebase.projects.get"]
+[debug] [2022-05-18T01:52:20.053Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-login-97725:testIamPermissions [none]
+[debug] [2022-05-18T01:52:20.053Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-login-97725:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-05-18T01:52:21.126Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-login-97725:testIamPermissions 200
+[debug] [2022-05-18T01:52:21.126Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-login-97725:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-05-18T01:52:21.127Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-login-97725 [none]
+[debug] [2022-05-18T01:52:21.717Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-login-97725 200
+[debug] [2022-05-18T01:52:21.717Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-login-97725 {"projectId":"fir-login-97725","projectNumber":"68122388047","displayName":"firebase-login","name":"projects/fir-login-97725","resources":{"hostingSite":"fir-login-97725","storageBucket":"fir-login-97725.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+[info] === Serving from 'D:\Kuliah\Matkul\Semester 6\Pemrograman Web Berbasis Framework\Source Code\Praktikum 11 - Firebase Login'...
+[info] 
+[debug] [2022-05-18T01:52:21.720Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-login-97725/sites 
+[debug] [2022-05-18T01:52:23.299Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-login-97725/sites 200
+[debug] [2022-05-18T01:52:23.299Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-login-97725/sites {"sites":[{"name":"projects/fir-login-97725/sites/fir-login-97725","defaultUrl":"https://fir-login-97725.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2022-05-18T01:52:23.300Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-login-97725/webApps/-/config [none]
+[debug] [2022-05-18T01:52:24.062Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-login-97725/webApps/-/config 200
+[debug] [2022-05-18T01:52:24.063Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-login-97725/webApps/-/config {"projectId":"fir-login-97725","storageBucket":"fir-login-97725.appspot.com","locationId":"us-central","apiKey":"AIzaSyCZzecYHGHcOEg7adijJtrVRU9SGupOKxM","authDomain":"fir-login-97725.firebaseapp.com","messagingSenderId":"68122388047"}
+[info] i  hosting: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
